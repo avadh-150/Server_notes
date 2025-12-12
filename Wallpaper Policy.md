@@ -1,6 +1,8 @@
 # 📘 **How to Set a Desktop Wallpaper Using Group Policy (Windows Server 2022)**
 
 This guide explains how to configure a **desktop wallpaper policy** using **Local Group Policy Editor** on Windows Server 2022.
+<img width="799" height="570" alt="image" src="https://github.com/user-attachments/assets/0ec48180-bd72-4114-9a7a-de170393742e" />
+<img width="1720" height="1240" alt="image" src="https://github.com/user-attachments/assets/54126011-4ef7-4d7b-bede-3c23bf7e3326" />
 
 ---
 
@@ -33,7 +35,8 @@ This guide explains how to configure a **desktop wallpaper policy** using **Loca
 5. Click **Permissions**
     
 6. Make sure **Users** have **Read** permission
-    
+<img width="363" height="450" alt="image" src="https://github.com/user-attachments/assets/d1219845-7437-4960-b421-9de089090008" />
+
 
 > Your network path will look like:
 
