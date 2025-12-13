@@ -48,6 +48,10 @@ This guide explains how to configure a **desktop wallpaper policy** using **Loca
 
 ## **3. Open Group Policy Editor**
 
+Pach of Group Policy
+---
+    C:\Windows\System32\GroupPolicy
+---
 Press **Win + R** → type:
 
 ```
