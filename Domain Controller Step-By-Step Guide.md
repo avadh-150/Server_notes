@@ -12,7 +12,8 @@
      Preferred DNS: 127.0.0.1 (or your DNS server)
      ```
 3. Click **Save**.
-
+   
+   <img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/08346ec5-3b95-484a-93ee-c9699851fef2" />
 ---
 
 ## Step 2: Rename Computer (Optional but Recommended)
@@ -21,6 +22,7 @@
 3. Click **Change** → enter a new **Computer name** (e.g., `DC01`).
 4. Keep **Member of: Workgroup** selected.
 5. Click **OK** → Restart when prompted.
+<img width="282" height="178" alt="image" src="https://github.com/user-attachments/assets/85f0f920-d4e3-4ab3-95db-346ebfe3da75" />
 
 ---
 
@@ -32,7 +34,8 @@
 5. When prompted, click **Add Features**.
 6. Click **Next → Next → Install**.
 7. Wait for the installation to complete (no reboot yet).
-
+	
+	If you trouble in installation visite this https://activedirectorypro.com/install-ad-ds/
 ---
 
 ## Step 4: Promote the Server to a Domain Controller
@@ -40,6 +43,9 @@
 2. Select **Add a new forest**.
 3. Enter your **Root domain name** (example: `example.local`).
 4. Click **Next**.
+   
+   <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/cb446ef0-7c9c-4cfe-b089-60dc0d211071" /><img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/d190d28f-df0e-4a39-a8bf-3bf1fd1aecb9" />
+
 
 ---
 
@@ -52,6 +58,8 @@
    - ☐ Read-only domain controller (RODC)
 4. Set a **Directory Services Restore Mode (DSRM)** password.
 5. Click **Next**.
+   
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/c5236819-0ca6-4067-9cf1-7237ece68c4b" />
 
 ---
 
@@ -66,6 +74,8 @@
 - Confirm the **NetBIOS name** (default is fine).  
 - Click **Next**.
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5d77fa44-89d5-4887-8c67-f99a32764f0a" />
+
 ---
 
 ### Step 4d: Paths
@@ -77,12 +87,16 @@
 
 - Click **Next**.
 
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f2d2a5cb-c875-495f-90b7-2879f5cc0df1" />
+
 ---
 
 ### Step 4e: Review and Install
 1. Review all settings.
 2. Click **Install**.
 3. The server will automatically **reboot** after installation.
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a3550e83-72c2-4145-bd34-5df200e576b5" />
 
 ---
 
