@@ -3,7 +3,9 @@
 ## Step 1: Initial Setup
 1. Log in to your Windows Server 2022 machine using **Administrator** privileges.
 2. Assign a **static IP address**:
-   - Go to **Settings → Network & Internet → Ethernet → Edit IP assignment → Manual**.
+   - Press **Win** +**R** → type **ncpa.cpl** → Enter
+   - **Right-click active adapter → Properties → IPv4 → Use the following IP address → Manual**.
+   - And Turn off **IPv6**
    - Enable **IPv4** and set:
      ```
      IP Address: 192.168.1.10
@@ -11,7 +13,7 @@
      Default Gateway: 192.168.1.1
      Preferred DNS: 127.0.0.1 (or your DNS server)
      ```
-3. Click **Save**.
+4. Click **Save**.
    
    <img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/08346ec5-3b95-484a-93ee-c9699851fef2" />
 ---
