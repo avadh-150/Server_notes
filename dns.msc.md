@@ -1,5 +1,7 @@
 You’re looking at **`dsa.msc` (Active Directory Users and Computers)**. The **left sidebar is not decoration**—each container has a specific job. Misusing them is how people break AD. Here’s the **no-nonsense breakdown**, top to bottom.
 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/a1000618-79ae-407b-8d7c-4b8ef9cb54c3" />
+
 ---
 
 ## **Saved Queries**
@@ -46,7 +48,8 @@ You’re looking at **`dsa.msc` (Active Directory Users and Computers)**. The **
 - **Correct practice:** Move computers into proper OUs after join.
     
 - **Hard truth:** Leaving systems here = unmanaged environment.
-    
+
+<img width="785" height="550" alt="image" src="https://github.com/user-attachments/assets/648a9744-3ea0-46c8-ab95-fcdb664f0cb8" />
 
 ---
 
@@ -58,6 +61,7 @@ You’re looking at **`dsa.msc` (Active Directory Users and Computers)**. The **
     
 - **Warning:** Mess this up and your domain dies. No exaggeration.
     
+    <img width="713" height="321" alt="image" src="https://github.com/user-attachments/assets/79ed4529-0f9d-49ab-8569-49bf32f28d36" />
 
 ---
 
@@ -92,10 +96,13 @@ You’re looking at **`dsa.msc` (Active Directory Users and Computers)**. The **
     - Built-in users (Administrator, Guest)
         
     - Security groups
+  
+  <img width="766" height="535" alt="image" src="https://github.com/user-attachments/assets/925e2db0-35a2-492c-a311-00d082a4ad30" />
         
 - **Reality:** Microsoft still ships it, but **best practice = create your own OU**.
     
 - **Your screenshot:** You created a user here. That’s acceptable for a lab.
-    
+
+
 
 ---
