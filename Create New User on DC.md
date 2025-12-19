@@ -45,7 +45,7 @@ If this fails → AD DS is not installed or the server is not a DC.
 3. Right-click **Users** (or your custom OU)
     
 4. Click **New → User**
-![[Pasted image 20251219215537.png]]
+<img width="451" height="385" alt="image" src="https://github.com/user-attachments/assets/3b11a976-44c2-4696-a62f-5e64a8151c51" />
 
 Fill properly:
 
@@ -90,8 +90,9 @@ I’ll go **tab by tab**, only what actually matters.
 - **Does NOT affect login**
     
 - **Reality:** Safe to edit, low risk
-    
 
+  <img width="414" height="498" alt="image" src="https://github.com/user-attachments/assets/b21befd6-8911-4673-9bff-574a4a94e3cb" />
+  
 ---
 
 ## **2. Address**
@@ -101,8 +102,8 @@ I’ll go **tab by tab**, only what actually matters.
 - Zero impact on authentication or security
     
 - Useful only in real corporate environments
-
-![[Pasted image 20251219215319.png]]
+  
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/b1e78076-2867-48ec-9671-426257bcf8dd" />
 
 ---
 
@@ -194,6 +195,8 @@ Controls **what environment loads after login**
 
 If you don’t configure these, nothing breaks.
 
+<img width="428" height="340" alt="image" src="https://github.com/user-attachments/assets/9075dd52-d780-4373-964c-cd957b6673c0" />
+
 ---
 
 ## **5. Member Of** ⚠️ (PRIVILEGE CONTROL)
@@ -210,6 +213,8 @@ If you don’t configure these, nothing breaks.
         
 
 Hard truth: **Groups matter more than users** in AD.
+
+<img width="432" height="300" alt="image" src="https://github.com/user-attachments/assets/d09d6134-bb93-494e-8d87-b8afdc59981e" />
 
 ---
 
