@@ -49,7 +49,7 @@ You’re looking at **`dsa.msc` (Active Directory Users and Computers)**. The **
     
 - **Hard truth:** Leaving systems here = unmanaged environment.
 
-<img width="785" height="550" alt="image" src="https://github.com/user-attachments/assets/648a9744-3ea0-46c8-ab95-fcdb664f0cb8" />
+<img width="500" height="550" alt="image" src="https://github.com/user-attachments/assets/648a9744-3ea0-46c8-ab95-fcdb664f0cb8" /> 
 
 ---
 
