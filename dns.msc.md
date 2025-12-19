@@ -96,6 +96,7 @@ You’re looking at **`dsa.msc` (Active Directory Users and Computers)**. The **
     - Built-in users (Administrator, Guest)
         
     - Security groups
+    - also Create a New user  
   
   <img width="766" height="535" alt="image" src="https://github.com/user-attachments/assets/925e2db0-35a2-492c-a311-00d082a4ad30" />
         
