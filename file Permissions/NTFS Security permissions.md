@@ -23,7 +23,7 @@
 Example:
 
 ```
-D:\CompanyData\HR
+C:\data
 ```
 
 ❌ Do NOT share:
@@ -66,7 +66,7 @@ That’s rookie-level unsafe.
 6. Enter group name (example):
     
     ```
-    HR_Modify
+    IT Team
     ```
     
 7. Click **Check Names** → OK
@@ -187,20 +187,11 @@ This shows **real permissions**, not assumptions.
 ## Example: Correct enterprise setup
 
 ```
-D:\CompanyData
- ├── HR        → HR_Modify
+D:\data
+ ├── bank record   
  ├── Finance  → Finance_Modify
- ├── IT       → IT_FullControl
-```
-
-Groups:
-
-- HR_Modify → Modify
-    
-- Finance_Modify → Modify
-    
-- IT_Admins → Full Control
-    
+ ├── cmd.exe
+```   
 
 Users go into groups.  
 Groups get permissions.  
