@@ -106,8 +106,28 @@ That’s exactly what you want.
 ## STEP 3: Advanced NTFS check (important but quick)
 
 1. In **Security** tab → **Advanced**
-     [!image](https://github.com/avadh-150/Server_notes/blob/main/MCSE%20Class%20Notes/img/security_tab%20advance%20option.png?raw=true)
-2. Confirm:
+   
+     ![image](https://github.com/avadh-150/Server_notes/blob/main/MCSE%20Class%20Notes/img/security_tab%20advance%20option.png?raw=true)
+
+    -  **Disable Inheritance**
+      
+      
+      <img width="500" height="537" alt="image" src="https://github.com/user-attachments/assets/f8da775c-b8a5-46ef-be4a-7f8808b08ef9" />
+      
+      **Click on**
+    - → Convert inherited permissions into explicit permissions on this object.
+
+    **Remove the users only**
+       - only keep `administrator` and `ststem`
+   
+   <img width="500" height="537" alt="image" src="https://github.com/user-attachments/assets/5eff42bc-e595-4a9f-b913-8b9099b9f02d" />
+
+    **add It Teams Or Group Users**
+
+   <img width="500" height="537" alt="image" src="https://github.com/user-attachments/assets/5bbb7ef9-5cf8-46f0-909e-5f229b42360d" />
+
+
+3. Confirm:
     
     - Inheritance = **Enabled**
         
