@@ -42,28 +42,38 @@ Because enterprise admins don’t configure quotas folder-by-folder like amateur
 2. Go to **Quota Management → Quota Templates**
     
 3. **Create Quota Template**
+   
+   <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/f33b96a6-62cc-463f-8638-0e4b41823b78" />
+	<img width="388" height="486" alt="image" src="https://github.com/user-attachments/assets/1c142006-a898-4954-8bbb-46757c22b85b" />
+
 ### Notifications (mandatory)
 
 Configure **ALL** of these:(use Event Viewer tool)
 
-- **85%** → Warning email to user + IT
+- **75%** → Warning email to user + IT
     
-- **95%** → Critical warning
+- **90%** → Critical warning
     
 - **100%** → Final alert (writes blocked)
 # 3️⃣ Apply quota to `My_Quota`
 
+
 1. **Quota Management → Quotas**
     
 2. **Create Quota**
-    
+ 
+<img width="500" height="412" alt="image" src="https://github.com/user-attachments/assets/f0599a6f-03c2-48f3-8fe7-843c3f84a86a" />
+
 3. Path:
     
     `C:\My_Quota`
     
-4. Choose **Auto apply template and create quotas on existing and new subfolders**
+4. Choose **Create Quota on Path**
     
-5. Select template: `MYQ_Hard_50GB`
-    
+5. Select template: `Custom Templete, have you Created.`
+
+	<img width="321" height="397" alt="image" src="https://github.com/user-attachments/assets/029e1458-6f1d-43ac-bb7b-5a7896bf9aff" />
+6. Then Click on `Create`:
+	<img width="1041" height="238" alt="image" src="https://github.com/user-attachments/assets/999828dc-1ad5-4c0a-96df-a750d49ad0fd" />
 
 ✅ Now every subfolder inherits control  
