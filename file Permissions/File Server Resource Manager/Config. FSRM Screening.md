@@ -38,17 +38,17 @@ GO TO
   
 <img width="1024" height="728" alt="image" src="https://github.com/user-attachments/assets/8d6c0e3b-e3e6-48b8-ab06-c9412a81d00d" />
 
-Set Path
+* Set Path
 
-Click Browse
+* Click Browse
 
-Select:
+* Select:
 
 `C:\My_Quota`
 
-Choose : **Choose name which you want to Block**
+* Choose : **Choose name which you want to Block**
 
-Click OK
+* Click OK
 
 <img width="768" height="577" alt="image" src="https://github.com/user-attachments/assets/6e425d76-dca8-43fb-a182-1f4195691082" />
 
