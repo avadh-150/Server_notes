@@ -6,6 +6,7 @@
 4. **File Server Resource Manager**
 
 ![Image](https://redmondmag.com/articles/2014/09/25/~/media/ECG/redmondmag/Images/2014/09/FSRM_Fig1.ashx)
+
 5. Install → Tools → FSRM
     
 # 0️⃣ Ground rules (read this or stop)
