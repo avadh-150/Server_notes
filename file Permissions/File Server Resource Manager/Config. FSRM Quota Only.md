@@ -77,3 +77,5 @@ Configure **ALL** of these:(use Event Viewer tool)
 	<img width="1041" height="238" alt="image" src="https://github.com/user-attachments/assets/999828dc-1ad5-4c0a-96df-a750d49ad0fd" />
 
 ✅ Now every subfolder inherits control  
+IF you have facing any issue visite this line and again step by step Configure the Quota 
+https://www.rootusers.com/configure-quotas-with-file-server-resource-manager-fsrm/
