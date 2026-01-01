@@ -14,10 +14,12 @@ Controls **how much disk space users or folders can consume**.
 - **Hard quota** → limit enforced. Hit the cap, writes fail. Period.
     
 - **Soft quota** → no enforcement, just monitoring (useful for planning, not security).
-    
+
 
 **Reality check:**  
 If you care about preventing disk exhaustion, **hard quotas are mandatory**. Soft quotas are for reports, not protection.
+
+**Quota srmsvc Event_id : 12325**
 
 ---
 
@@ -37,6 +39,8 @@ Examples:
 
 **Blunt truth:**  
 If users can upload EXEs to a shared folder, your server is misconfigured. End of story.
+
+**screening id : 8215**
 
 ---
 
