@@ -97,4 +97,10 @@ Source: SRMSVC
 
 
 IF you have facing any issue visite this line and again step by step Configure the Quota 
-https://www.rootusers.com/configure-quotas-with-file-server-resource-manager-fsrm/
+https://www.rootusers.com/configure-quotas-with-file-server-resource-manager-fsrm/ 
+
+OR
+
+* full Quota + Screening ...
+
+https://www.manageengine.com/products/active-directory-audit/how-to/how-to-set-up-fsrm.html
