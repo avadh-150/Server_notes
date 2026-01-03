@@ -1,6 +1,7 @@
 
 ## Phase 1: Adding the Virtual Hardware
 
+
 Before adding the drive in Windows, you must first "plug in" the virtual hardware through the VMware settings.
 
 1. **Open VM Settings:** With the virtual machine powered off, click on **Edit virtual machine settings**.
