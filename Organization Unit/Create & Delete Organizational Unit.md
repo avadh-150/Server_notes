@@ -4,21 +4,28 @@ Based on the video provided, here are the step-by-step instructions for creating
 
 ## Part 1: How to Create an OU
 
-1. Open **Active Directory Users and Computers**.
+1. Run `dsa.msc`  |OR|  Open **Active Directory Users and Computers**.
     
 2. **Right-click** on the domain name or the container where you want to place the new OU.
+
+    like : `iforward.in`
     
 3. Navigate to **New** > **Organizational Unit**.
+
+    <img width="763" height="532" alt="image" src="https://github.com/user-attachments/assets/3706bd91-86fb-423c-b0f0-0f901aff2906" />
     
 4. In the "New Object – Organizational Unit" dialog box:
     
     - **Name:** Type the name for your OU (e.g., "IT" or "HR").
-        
-    - **Protection:** Ensure the box **"Protect container from accidental deletion"** is checked (this is enabled by default to prevent mistakes).
-        
-5. Click **OK**. Your new OU will now appear in the list.
-    
 
+        <img width="449" height="380" alt="image" src="https://github.com/user-attachments/assets/b21f0019-a4f3-4afe-980b-9ec87e330cb0" />
+
+    - **Protection:** Ensure the box **"Protect container from accidental deletion"** is checked (this is enabled by default to prevent mistakes).
+
+4. Click **OK**. Your new OU will now appear in the list.
+
+   <img width="766" height="534" alt="image" src="https://github.com/user-attachments/assets/f7debee6-45df-45a5-b344-cdeee0a4a8f4" />
+    
 ---
 
 ## Part 2: How to Delete an OU
