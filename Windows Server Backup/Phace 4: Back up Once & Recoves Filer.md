@@ -24,3 +24,51 @@ This allows you to run a backup immediately using the settings you just created.
 
 
 ---
+
+# Recover the Backup From `c:\data`
+
+### Part 1: Recover a Scheduled Backup
+
+1. **Open Windows Server Backup:** Go to **Server Manager**, click **Tools** in the top-right corner, and select **Windows Server Backup**.
+
+2. **Access the Wizard:** In the right-hand **Actions** pane, click **Backup Schedule...**. Click **Next** on the "Getting Started" screen.
+
+    <img width="654" height="501" alt="image" src="https://github.com/user-attachments/assets/0c8f9655-0171-4657-9ab6-3e9ee43509dc" />
+    
+3. **Select Configuration:** Choose **Custom** to pick specific folders and click **Next**.
+
+   <img width="654" height="501" alt="image" src="https://github.com/user-attachments/assets/ad5b61ae-fa40-4ad4-b807-b05aab0ef9ec" />
+
+4. **Select Backup Location**: 
+
+   <img width="654" height="501" alt="image" src="https://github.com/user-attachments/assets/66703976-9327-4bf0-8cd2-10f3b6bc8dd0" />
+
+5. **Select the Server**:
+
+   <img width="654" height="501" alt="image" src="https://github.com/user-attachments/assets/3d168c29-fb40-4a11-ba95-e3ad422229cc" />
+        
+6. **Select Time:** Get your preferred time. Click **Next**.
+
+   <img width="654" height="501" alt="image" src="https://github.com/user-attachments/assets/1b4301ce-a3bf-4219-b071-a6f6743350a5" />
+
+8. **Select the Recovery Type:** Next, select the **recovery type**. You can choose files and folders (recover specific files), volumes, and system state.
+
+   <img width="742" height="580" alt="image" src="https://github.com/user-attachments/assets/ee29e26c-96e1-4f3b-b7f1-1bafa70c5d5b" />
+
+10. **Select Recovery Items:**
+    
+    - Locate the files and folders you want to recover.  Click Next.
+      
+      <img width="621" height="502" alt="image" src="https://github.com/user-attachments/assets/dcda915d-550a-4c2c-8c8a-23824ac48aec" />
+
+11. **Select Specific Recovery Opt** Specify where the files should be restored to on the local computer.  Click Next
+
+    <img width="631" height="495" alt="image" src="https://github.com/user-attachments/assets/9783584a-fec9-4835-a222-597e9d0267fb" />
+
+12. **Verify** : Verify the settings | files |folders and click Recover when ready.
+
+13. **Final Step** : Recovery Progress and Click Close...
+
+   <img width="654" height="501" alt="image" src="https://github.com/user-attachments/assets/bcdc755a-fb77-41dd-ac62-51070eead18d" />
+ 
+---
