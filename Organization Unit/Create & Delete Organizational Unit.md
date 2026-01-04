@@ -35,24 +35,33 @@ If you try to delete an OU immediately by right-clicking it and selecting **Dele
 To delete it, you must first disable that protection:
 
 1. Click on the **View** menu at the top of the Active Directory window.
-    
+
 2. Select **Advanced Features**. (The screen will refresh and show more hidden containers).
-    
+
+   <img width="608" height="306" alt="image" src="https://github.com/user-attachments/assets/47fd9314-e96c-41ec-a241-8457851ae0af" />
+
 3. **Right-click** the OU you want to delete and select **Properties**.
+
+   <img width="761" height="567" alt="image" src="https://github.com/user-attachments/assets/a470dacc-b706-4cfe-a5f3-baf516718173" />
     
 4. Click on the **Object** tab.
-    
+
 5. **Uncheck** the box that says **"Protect object from accidental deletion"**.
+
+7. Click **Apply** and then **OK**.
     
-6. Click **Apply** and then **OK**.
+   <img width="411" height="457" alt="image" src="https://github.com/user-attachments/assets/04a013a2-e43e-4b96-84d0-68a6ced5ea8e" />
+
+   <img width="608" height="387" alt="image" src="https://github.com/user-attachments/assets/50665e78-870c-46b3-8d4a-70556bfbfcc4" />
     
-7. Now, **right-click** the OU again, select **Delete**, and click **Yes** to confirm. The OU will now be successfully removed.
+8. Now, **right-click** the OU again, select **Delete**, and click **Yes** to confirm. The OU will now be successfully removed.
     
+    <img width="608" height="387" alt="image" src="https://github.com/user-attachments/assets/f70436aa-3dd3-4670-ac6e-ef721371599e" />
+
+    <img width="762" height="524" alt="image" src="https://github.com/user-attachments/assets/da36f580-128c-4324-bb75-fac2da38147b" />
 
 ---
 
 ### Pro-Tip
 
 After deleting the OU, it is a good idea to go back to the **View** menu and uncheck **Advanced Features** to simplify your workspace and prevent accidental changes to system containers.
-
-Would you like me to explain how to move users into your new OU?
