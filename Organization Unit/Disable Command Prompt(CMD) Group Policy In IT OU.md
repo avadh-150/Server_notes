@@ -8,17 +8,23 @@ This section covers how to create a new Group Policy Object (GPO) to restrict ac
 
 1. **Open Group Policy Management:** On your Windows Server (Domain Controller), open the Group Policy Management console.
     
-2. **Create a New GPO:** * Right-click on your target Organizational Unit (OU) or the Domain.
+2. **Create a New GPO:** * Right-click on **IT Organizational Unit**.
     
     - Select **"Create a GPO in this domain, and Link it here..."**.
         
-    - Name the GPO (e.g., `CMD Block Policy`).
+    - Name the GPO (e.g., `Disable CMD Policy`).
+
+    <img width="893" height="486" alt="image" src="https://github.com/user-attachments/assets/7455f2b3-0d29-4077-9a48-b64b4200cf3f" />
         
 3. **Edit the GPO:**
     
     - Right-click the newly created GPO and select **Edit**.
-        
+
+      <img width="499" height="327" alt="image" src="https://github.com/user-attachments/assets/33e814b3-3505-4524-bfae-720391540293" />
+
     - Navigate to: `User Configuration` > `Policies` > `Administrative Templates` > `System`.
+
+     <img width="779" height="552" alt="image" src="https://github.com/user-attachments/assets/f15a85c5-51f4-48a0-804b-46bf0ac977db" />
         
 4. **Enable the Restriction:**
     
@@ -29,7 +35,8 @@ This section covers how to create a new Group Policy Object (GPO) to restrict ac
     - Under the Options section, you can choose "Yes" or "No" for **"Disable the command prompt script processing also?"** (Selecting "No" allows logon scripts to still run).
         
     - Click **Apply** and then **OK**.
-        
+
+      <img width="685" height="632" alt="image" src="https://github.com/user-attachments/assets/45c577b0-06c6-417a-8563-436b7fb66908" />
 
 ---
 
@@ -45,7 +52,6 @@ To ensure the changes take effect immediately on the client machine:
         
     - _Note: If the policy has already applied, you may receive a message stating CMD is disabled immediately upon opening it._
         
-
 ---
 
 ## Part 3: Verifying the Policy (Verification Steps)
@@ -61,4 +67,6 @@ There are two primary ways to verify that the policy is active.
     > **"The command prompt has been disabled by your administrator. Press any key to continue..."**
     
 3. Pressing a key will automatically close the window, confirming the block is active.
-    
+
+   <img width="701" height="326" alt="image" src="https://github.com/user-attachments/assets/6301195a-d984-4f05-964c-9f7bf1982547" />
+
