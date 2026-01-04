@@ -27,7 +27,9 @@ To disable the Registry Editor (**regedit**) specifically for the **IT OU** via 
 3. In the right-hand pane, find and double-click the policy:
     
     "Prevent access to registry editing tools"
-    
+
+   <img width="640" height="450" alt="image" src="https://github.com/user-attachments/assets/f1817f85-efcb-4901-afc9-802032fad8d7" />
+
 4. Select **Enabled**.
     
 5. Under the "Options" box on the left, you will see: **Disable regedit from running silently?**
@@ -38,6 +40,7 @@ To disable the Registry Editor (**regedit**) specifically for the **IT OU** via 
         
 6. Click **Apply** and **OK**.
     
+	<img width="640" height="594" alt="image" src="https://github.com/user-attachments/assets/52f2226c-ae39-40da-af6c-46a5f7356d9d" />
 
 ---
 
@@ -46,14 +49,14 @@ To disable the Registry Editor (**regedit**) specifically for the **IT OU** via 
 1. Log in to **PC1** using an account that belongs to the **IT OU**.
     
 2. Open the Command Prompt and run:
-    
-    DOS
-    
+        
     ```
     gpupdate /force
     ```
     
 3. Try to open the Registry Editor by typing `regedit` in the Start menu. You should see a message stating: _"Registry editing has been disabled by your administrator."_
-    
+
+   <img width="640" height="214" alt="image" src="https://github.com/user-attachments/assets/62d422ce-e5b0-4538-a3a9-011cb7e239d9" />
+
 
 ---
