@@ -24,6 +24,8 @@ To disable the **Credential Manager** (the ability to store network passwords) o
 ```
 ### Proper Steps to Configure the Service:
 
+  <img width="709" height="366" alt="image" src="https://github.com/user-attachments/assets/10f9fc50-eae6-4606-b1e5-7f5f01e25a28" />
+
 6. Scroll down the list of services in the right-hand pane until you find **Credential Manager**.
     
 7. Double-click it.
