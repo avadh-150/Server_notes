@@ -1,8 +1,31 @@
-This video demonstrates how to configure a **Group Policy Object (GPO)** to hide the Recycle Bin from the desktop for specific users and how to verify it.
+# GOAL (Crystal Clear)
 
+1. **Recycle Bin = HIDDEN** for **entire domain** → `iforward.in`
+    
+2. **Recycle Bin = SHOWN** only for users in **IT OU**
+   
 ---
+### Step 1: Create Domain-Level GPO
 
-## Part 1: Configuring the Group Policy
+On DC:
+
+```
+gpmc.msc
+```
+
+1. Expand domain **iforward.in**
+    
+2. Right-click **iforward.in**
+    
+3. Click **Create a GPO in this domain, and Link it here**
+    
+4. Name it:
+    
+    ```
+    Domain - Hide Recycle Bin
+    ```
+    
+## Part 2: Configuring the Group Policy
 
 1. **Open Group Policy Management:** On your Domain Controller, open the **Group Policy Management** console.
     
@@ -29,7 +52,7 @@ This video demonstrates how to configure a **Group Policy Object (GPO)** to hide
 
 ---
 
-## Part 2: Applying and Verifying the Policy
+## Part 3: Applying and Verifying the Policy
 
 Once the policy is set, you need to ensure the client machine receives the update.
 
@@ -47,7 +70,7 @@ Once the policy is set, you need to ensure the client machine receives the updat
 
 ---
 
-## Part 3: Accessing the Recycle Bin when Hidden
+## Part 4: Accessing the Recycle Bin when Hidden
 
 If a user needs to access the Recycle Bin while the icon is hidden, the video demonstrates a manual workaround:
 
