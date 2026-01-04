@@ -17,6 +17,7 @@ This video demonstrates how to configure a **Group Policy Object (GPO)** to hide
 			    └─ Remove Recycle Bin icon from desktop
 ```
 
+   <img width="900" height="673" alt="image" src="https://github.com/user-attachments/assets/2740cf10-b353-49c4-88d6-8ab66281269c" />
 
 1. **Enable the Policy:** * In the right-hand pane, find and double-click **Remove Recycle Bin icon from desktop**.
     
@@ -24,6 +25,7 @@ This video demonstrates how to configure a **Group Policy Object (GPO)** to hide
         
     - Click **Apply** and then **OK**.
         
+	<img width="699" height="641" alt="image" src="https://github.com/user-attachments/assets/cc5d81e3-2d41-420e-8565-b693431db134" />
 
 ---
 
@@ -36,9 +38,12 @@ Once the policy is set, you need to ensure the client machine receives the updat
 2. `gpupdate /force` 
     
 3. **Sign In:** Sign in with the user account that is subject to the GPO (e.g., `User1`).
+
+   <img width="1304" height="768" alt="image" src="https://github.com/user-attachments/assets/6685abed-c9ca-4301-b6e3-840a64ab7fb6" />
+
+5. **Check Desktop:** Notice that the Recycle Bin icon is now **hidden** from the desktop.
     
-4. **Check Desktop:** Notice that the Recycle Bin icon is now **hidden** from the desktop.
-    
+   <img width="314" height="310" alt="image" src="https://github.com/user-attachments/assets/d82facb8-89b7-4213-befb-6b62e6496668" />
 
 ---
 
