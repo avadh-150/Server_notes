@@ -65,3 +65,53 @@ To delete it, you must first disable that protection:
 ### Pro-Tip
 
 After deleting the OU, it is a good idea to go back to the **View** menu and uncheck **Advanced Features** to simplify your workspace and prevent accidental changes to system containers.
+
+---
+
+# The Correct Design
+
+*  Best practice:
+```
+OU=IT
+ ├─ OU=Users
+ │   └─ User1
+ └─ OU=Computers
+     └─ PC1
+```
+
+ Then:
+
+User GPOs → link to Users OU
+
+Computer GPOs → link to Computers OU
+
+---
+
+### User Move in IT OU
+
+   1.Go to Users container (or wherever User1 is)
+
+   2.Right-click User1
+
+   3.Click Move
+
+   4.Select OU = IT
+
+   5.Click OK
+
+---
+
+### PC1 Move in IT OU
+
+   1.Go to Computers container
+
+   2.Right-click PC1
+
+   3.Click Move
+
+   <img width="258" height="195" alt="image" src="https://github.com/user-attachments/assets/d277009e-8d18-4b4f-b4d9-834195b01a6e" />
+    
+   4.Select OU = IT
+
+   5.Click OK
+   
